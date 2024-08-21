@@ -1,0 +1,9 @@
+[
+    { "productId": 39439, "name": "Apple watch", "description": "pretty cool", "price": 45000, "inCart": "true" },
+    { "productId": 39440, "name": "Samsung Galaxy Watch", "description": "sleek design", "price": 30000, "inCart": "false" },
+    { "productId": 39441, "name": "Fitbit Charge 4", "description": "great for fitness", "price": 15000, "inCart": "true" },
+    { "productId": 39442, "name": "Garmin Forerunner 245", "description": "excellent for runners", "price": 25000, "inCart": "false" },
+    { "productId": 39443, "name": "Fossil Gen 5", "description": "stylish and functional", "price": 20000, "inCart": "true" },
+    { "productId": 39444, "name": "Amazfit Bip U Pro", "description": "budget-friendly", "price": 5000, "inCart": "false" }
+  ]
+  

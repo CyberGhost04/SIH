@@ -9,8 +9,8 @@ app.use(express.json());
 app.get('/', (req, res) => {
     
     DB.update();
-    const users = DB.users;
-    res.status(200).json(users);
+    const products = DB.products;
+    res.status(200).json(products);
 
 });
 
@@ -19,7 +19,7 @@ app.put('/', async(req, res) => {
     try{
 
         DB.update();
-        DB.users.push(data);
+        DB.products.push(data);
         DB.save();
         res.status(200).json({scs : "true"});
 
